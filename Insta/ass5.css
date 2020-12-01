@@ -1,0 +1,163 @@
+/*.container{
+	width: 500px;
+	height: 500px;
+	margin-left: 190px;
+	padding: 10px;
+	box-shadow: 2px 2px 2px black;
+}
+.top{
+	width: 500px;
+	height: 40px;
+	margin-left: 190px;
+	padding: 10px;
+	box-shadow: 0px 0px 2px black;
+	margin-top: 40px;
+}
+#Circle{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-image: url(Itauh.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border:solid red;
+
+}
+img{
+     width:100%;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: cover;
+}
+.bottom{
+	width: 500px;
+	height: 40px;
+	margin-left: 190px;
+	padding: 10px;
+	box-shadow: 0px 0px 2px black;
+
+}*/
+.container{
+position: relative;
+top: 50px;
+width: 400px;
+height: 700px;
+margin-left: 190px;
+box-shadow: 0 4px 8px 0
+}
+
+.top{
+	position: absolute;
+	top: 0;
+	height: 50px;
+	width: 400px;
+	border-bottom: 1px solid black;
+}
+
+.bottom{
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 400px;
+	border-top: 1px solid black;
+}
+
+.circle{
+
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border:solid red;
+	margin: 8px;
+
+
+}
+
+.text1{
+	position: absolute;
+	top: 20px;
+	bottom: 30px;
+	left: 40px;
+	text-align: left;
+	font-size: 14px;
+
+}
+
+#dotted{
+	display: inline;
+	position: absolute;
+	right: 20px;
+	bottom: 0.5px;
+}
+
+#foto{
+	width: 100%;
+	height: 350px;
+	margin-top: 50px;
+}
+.text1{
+	text-align: center;
+	font-size: 14px;
+	margin-left:15px;
+	margin-top:2px
+}
+.text2{
+	position: absolute;
+	left: 10px;
+	top: 15px;
+	font-size: 14px;
+}
+.text3{
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	color: teal;
+	font-size: 14px;
+}
+
+#comment{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 300px;
+	
+
+
+}
+
+#text{
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	right: 5px;
+	font-size: 14px;
+}
+.name{
+	color: teal;
+}
+
+#book{
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	font-size: 20px;
+}
+
+.heart, .comment, .dm{
+	margin-top: 20px;
+	margin-left: 8px;
+	font-size: 20px;
+	}
+	.text4{
+		font-size: 10px;
+		color: grey;
+	}
+	.text5{
+		font-size: 13px;
+		color: grey;
+	}
+
+
+		     
